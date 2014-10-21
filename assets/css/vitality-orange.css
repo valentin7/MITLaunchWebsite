@@ -7,6 +7,7 @@
 html,
 body {
     height: 100%;
+    color: #0f1728;
 }
 
 .img-centered {
@@ -42,7 +43,7 @@ body {
 }
 
 a {
-    color: #f26f21;
+    color: #f36f22;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     transition: all .5s;
@@ -123,7 +124,7 @@ hr.colored {
 }
 
 .text-primary {
-    color: #f26f21;
+    color: #f36f22;
 }
 
 .navbar-default .navbar-nav>.active>a,
@@ -156,7 +157,7 @@ hr.colored {
 }
 
 .navbar-inverse {
-    background-color: #222;
+    background-color: #0f1728;
 }
 
 .navbar-default,
@@ -242,7 +243,7 @@ header {
     min-height: 100%;
     background: no-repeat center center;
     background-attachment: scroll;
-    background-color: #222;
+    background-color: #0f1728;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -374,7 +375,7 @@ aside.cta-quote {
     text-align: center;
     color: #fff;
     background: no-repeat center center scroll;
-    background-color: #222;
+    background-color: #0f1728;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -460,7 +461,7 @@ aside.cta-quote span.quote {
 }
 
 .testimonials .testimonials-carousel .item .testimonial-info .testimonial-author .stars {
-    color: #f1c40f;
+    color: #f3c50f;
 }
 
 .testimonials .testimonials-carousel .owl-controls {
@@ -601,7 +602,7 @@ aside.cta-quote span.quote {
 .services .media i.fa {
     width: 75px;
     height: 75px;
-    border: 3px solid #222;
+    border: 3px solid #0f1728;
     border-radius: 100%;
     text-align: center;
     font-size: 30px;
@@ -634,14 +635,14 @@ aside.cta-quote span.quote {
 .portfolio-carousel {
     padding: 0;
     color: #fff;
-    background-color: #222;
+    background-color: #0f1728;
 }
 
 .portfolio-carousel .item {
     padding: 50px 55px;
     text-align: center;
     background: no-repeat center center scroll;
-    background-color: #222;
+    background-color: #0f1728;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -821,7 +822,7 @@ aside.cta-quote span.quote {
 .pricing {
     color: #fff;
     background: no-repeat center center scroll;
-    background-color: #222;
+    background-color: #0f1728;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -833,7 +834,7 @@ aside.cta-quote span.quote {
     margin-bottom: 30px;
     padding: 30px;
     text-align: center;
-    color: #222;
+    color: #0f1728;
     background: #fff;
     -webkit-box-shadow: 0 0 30px 5px rgba(34,34,34,.75);
     -moz-box-shadow: 0 0 30px 5px rgba(34,34,34,.75);
@@ -1012,8 +1013,8 @@ footer.footer .copyright p.small {
 }
 
 .btn-outline-dark {
-    border: 1px solid #222;
-    color: #222;
+    border: 1px solid #0f1728;
+    color: #0f1728;
     background: 0 0;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -1051,7 +1052,7 @@ footer.footer .copyright p.small {
     font-weight: 200;
     letter-spacing: normal;
     color: #fff;
-    background-color: #222;
+    background-color: #0f1728;
 }
 
 .btn-full-width:hover {
@@ -1075,6 +1076,7 @@ body.modern h4,
 body.modern h5,
 body.modern h6 {
     text-transform: uppercase;
+    color: #0f1728;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
