@@ -10,7 +10,7 @@ var particles_on;
 $(document).ready(function() {
 
     msieversion();
-    
+
     if( $(window).width() <= 768 )
     { 
     // is mobile or tablet so don't show particles.. (too big and messes up layout)
@@ -77,9 +77,9 @@ $(window).resize(function() {
         var msie = ua.indexOf("MSIE ");
 
         if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))      // If Internet Explorer, return version number
-            alert(parseInt(ua.substring(msie + 5, ua.indexOf(".", msie))));
-        else                 // If another browser, return 0
-            alert('otherbrowser');
-
+        {
+            if (parseInt(ua.substring(msie + 5, ua.indexOf(".", msie))) < 11)
+                alert('Internet Explorer '+ parseInt(ua.substring(msie + 5, ua.indexOf(".", msie))) + ' is not supported. Please upgrade your browser.');
+        }
    return false;
 }
