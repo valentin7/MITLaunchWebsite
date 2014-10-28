@@ -11,6 +11,11 @@ $(document).ready(function() {
     if( $(window).width() <= 768 )
     { 
     // is mobile or tablet so don't show particles.. (too big and messes up layout)
+    $('#program').empty();
+    $('#program').append("<div class='container-fluid'> <div class='row text-center'> <img src='assets/img/launch/overview-no-text.png' class='img-responsive img-centered' alt''><p><span class='text-primary'><b>STEP 1: IDEA DEVELOPMENT</b></span></p><p>Creative process and laying out the initial business model canvas hypotheses</p><br><p><span class='text-primary'><b>STEP 2: TEST THE VALUE HYPOTHESIS</b></span></p><p>Ensure there is a customer need that is big enough and valuable enough to address with the offering</p><br><p><span class='text-primary'><b>STEP 3: TEST THE GROWTH HYPOTHESIS</b></span></p><p>Determine how to reach customers, price optimally, and develop operations to deliver the offering</p><br><p><span class='text-primary'><b>STEP 4: PUT IT TOGETHER / LAUNCH</b></span></p><p>Develop projections and pitches and prepare for the needs ahead</p> </div> </div>");    
+
+
+    
     }
     else
     {
@@ -36,9 +41,14 @@ $(window).resize(function() {
     particles_on = false;
     // is mobile so don't show particles..
     $('#starfield').particleground('destroy');
+    $('#program').empty();
+    $('#program').append("<div class='container-fluid'> <div class='row text-center'> <img src='assets/img/launch/overview-no-text.png' class='img-responsive img-centered' alt''><p><span class='text-primary'><b>STEP 1: IDEA DEVELOPMENT</b></span></p><p>Creative process and laying out the initial business model canvas hypotheses</p><br><p><span class='text-primary'><b>STEP 2: TEST THE VALUE HYPOTHESIS</b></span></p><p>Ensure there is a customer need that is big enough and valuable enough to address with the offering</p><br><p><span class='text-primary'><b>STEP 3: TEST THE GROWTH HYPOTHESIS</b></span></p><p>Determine how to reach customers, price optimally, and develop operations to deliver the offering</p><br><p><span class='text-primary'><b>STEP 4: PUT IT TOGETHER / LAUNCH</b></span></p><p>Develop projections and pitches and prepare for the needs ahead</p> </div> </div>");    
     }
     else
     {
+        $('#program').empty();
+        $('#program').append("<div class='container-fluid'> <div class='row text-center'> <img src='assets/img/launch/overview.png' class='img-responsive img-centered' alt''> </div> </div>");
+
         if(!particles_on)
         {
             $('#starfield').particleground({
